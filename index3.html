@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="shortcut icon" href="vistal.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="javascript.js"></script>
+<header><ul class="main-menu"><p align="center"><img src="vistal1.png" width="80" height="21" class="logo"></p>
+    <li><a href="index.html">Головна</a></li>
+    <li><a href="index1.html">Курси</a></li>
+    <li><a href="index2.html">Новини</a></li>
+    <li class="active"><a href="index3.html">Галерея</a></li>  
+</ul></header>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img class="slider" src="1slide.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img class="slider" src="2slide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img class="slider" src="3slide.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img class="slider" src="4slide.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img class="slider" src="5slide.jpg" style="width:100%">
+  </div>  
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img class="slider" src="6slide.png" style="width:100%">
+  </div>  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="1slide.png" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="2slide.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="3slide.jpg" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="4slide.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="5slide.jpg" style="width:100%" onclick="currentSlide(5)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="6slide.png" style="width:100%" onclick="currentSlide(6)">
+    </div>       
+  </div>
+</div>
+
+
+</body>
+</html>
